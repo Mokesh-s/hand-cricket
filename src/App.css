@@ -1,0 +1,28 @@
+.inner-box {
+  border: 1px solid green;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.inner-box:hover {
+  background: #eee;
+}
+
+.outer-box {
+  border: 1px solid;
+  position: relative;
+  margin: 20px;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-container, .outer-box {
+  height: 90vh;
+}
